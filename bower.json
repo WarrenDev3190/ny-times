@@ -1,0 +1,23 @@
+{
+  "name": "ny-times",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "warrenSadler"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.1.1"
+  }
+}

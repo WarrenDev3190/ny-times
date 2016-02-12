@@ -1,0 +1,15 @@
+#!/bin/bash
+echo Initializing Directory
+
+
+echo Creating RC files
+echo '{"directory":"public/libs"}' >> .bowerrc
+echo '{"presets":["es2015","stage-0","react"]}' >> .babelrc
+
+echo Creating gitignore
+echo /node_modules/ >> .gitignore
+
+echo Initializing npm, bower, git
+eval "npm init -y" 
+eval "bower init -y"
+eval "git init"
